@@ -16,7 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    word = @"Hello, this is an Objective C Application";
+    name = @"Urmil Shah";
+    
+    BOOL state = false;
+    
+    if (state == true) {
+        self.label2.text = @"Allow access";
+    }
+    
+    else {
+        self.label1.text = word;
+
+    }
+    
 }
 
 

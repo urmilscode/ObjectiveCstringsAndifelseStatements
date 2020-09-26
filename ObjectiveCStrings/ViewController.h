@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    NSString * word;
+    NSString * name;
+}
 
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *label2;
 
 @end
 
